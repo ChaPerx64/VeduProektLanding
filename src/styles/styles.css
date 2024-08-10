@@ -27,7 +27,7 @@ body {
 /* Header Styles */
 header {
   background-color: rgba(255, 255, 255, 0.9);
-  position: fixed;
+  position: sticky;
   width: 100%;
   top: 0;
   z-index: 1000;
@@ -77,8 +77,7 @@ button:hover {
 
 /* Main Content Styles */
 main {
-  margin-top: 80px; /* To account for fixed header */
-  padding: 2rem 5vw;
+  padding: 2rem;
 }
 
 section {
